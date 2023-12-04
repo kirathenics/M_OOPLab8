@@ -8,7 +8,7 @@ FileViewer::FileViewer(QWidget *parent) :
     ui->setupUi(this);
 
     this->setWindowTitle("File viewer");
-    this->setGeometry(1250, 300, 500, 700);
+    this->setGeometry(850, 100, 500, 700);
 
     QVBoxLayout *vertical_layout = new QVBoxLayout(this);
 

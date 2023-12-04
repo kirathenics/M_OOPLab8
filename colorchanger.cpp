@@ -8,7 +8,7 @@ ColorChanger::ColorChanger(QWidget *parent) :
     ui->setupUi(this);
 
     this->setWindowTitle("Color changer");
-    this->resize(500, 300);
+    this->setGeometry(250, 300, 500, 300);
 
     QGridLayout *grid_layout = new QGridLayout(this);
 
